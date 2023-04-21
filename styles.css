@@ -1,0 +1,108 @@
+body {
+  font-family: Inter;
+  margin-left: 50px;
+  display: flex;
+}
+
+.left-menu {
+  flex: 3%;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.menu-button {
+  text-decoration: none;
+  color: black;
+}
+
+.right-side {
+  flex: 90%;
+}
+
+header {
+  display: flex;
+  flex-direction: row; 
+  margin-top: 25px;
+}
+
+.search-bar {
+  width: 800px;
+  font-size: 18px;
+  background-color: rgb(245, 245, 245);
+  border: none;
+  border-radius: 20px;
+  margin-left: 30px;
+}
+
+.log-in-button {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.log-in-button a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  margin-top: 10px;
+}
+
+.search-bar:hover, .log-in-button:hover {
+  background-color: rgb(228, 228, 228);
+  border-radius: 20px;
+}
+
+.icons {
+  height: 40px;
+  margin-right: 20px;
+}
+
+.icons:hover {
+  background-color: rgb(222, 221, 221);
+  border-radius: 20px;
+}
+
+.heart-icon {
+  margin-top: 8px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+.heart-icon:hover {
+  background-color: rgb(228, 228, 228);
+  border-radius: 20px;
+}
+
+.main-promo {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; 
+  margin-right: 20px; 
+}
+
+.card {
+  border: 1px solid black;
+  padding: 15px;
+  width: 30%;
+}
+
+.card-image {
+  width: 100%;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  padding-right: 20px;
+  font-weight: bold;
+}
+
+nav {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
